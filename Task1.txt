@@ -1,0 +1,31 @@
+#Simple Python script that prints your name and a greeting.
+====================================================================
+name="Nandini"
+greeting="Hello! Hope you're having a good day."
+print("My name is",name,",",greeting)
+
+Output: My name is Nandini , Hello! Hope you're having a good day.
+
+
+#Experiment with running Python code directly in the interpreter.
+========================================================================
+In the command prompt we have t type pyhton (or) py to get interpreter/Interactive mode.
+ >>> 2+4
+ >>> print("Hello world")
+
+   output:4
+          Hello World
+
+
+#Python script with comments explaining different parts of the code.
+===============================================================================
+
+num1 = 5  #Step 1: Define the first number
+
+num2 = 7  #Step 2: Define the second number
+
+sum_result = num1 + num2  # Step 3: Add the two numbers
+
+# Step 4: Print the result
+print("The sum of num1 and num2 is:",sum_result)
+
