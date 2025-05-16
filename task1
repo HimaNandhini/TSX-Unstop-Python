@@ -1,4 +1,0 @@
-#Python script that prints your name and a greeting
-name="Nandini"
-greeting="Hello! Hope you're having a good day."
-print("My name is",name,",",greeting)
