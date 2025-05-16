@@ -1,0 +1,110 @@
+Write a script to calculate the area and perimeter of a rectangle using variables
+=======================================================================================
+length = 10  # Step 1: Define the length of the rectangle
+
+width = 5    # Step 2: Define the width of the rectangle
+
+area = length * width  # Step 3: Calculate the area (Area = length × width)
+
+perimeter = 2 * (length + width) # Step 4: Calculate the perimeter (Perimeter = 2 × (length + width))
+
+# Step 4: Print the results
+print("The area of the rectangle is",area)
+print("The perimeter of the rectangle is",perimeter)
+
+Output: The area of the rectangle is 50
+        The perimeter of the rectangle is 30
+
+Write a script that takes two numbers as input and prints whether the first number is greater than, less than, or equal to the second number.
+=======================================================================================================================================================
+# Step 1: Take input from the user and convert to numbers
+num1 = float(input("Enter the first number: "))  # Convert input to float
+num2 = float(input("Enter the second number: "))  # Convert input to float
+
+# Step 2: Compare the numbers and print the result
+if num1 > num2:
+    print("The first number is greater than the second number.")
+elif num1 < num2:
+    print("The first number is less than the second number.")
+else:
+    print("The two numbers are equal.")
+
+Output: Enter the first number: 25
+        Enter the second number: 35
+        The first number is less than the second number.
+
+Write a script that checks if a given year is a leap year (divisible by 4, but not by 100 unless also divisible by 400)
+============================================================================================================================
+# Step 1: Get the year from the user
+year = int(input("Enter a year: "))
+
+# Step 2: Check if it's a leap year
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("The year is a leap year.")
+else:
+    print("The year is not a leap year.")
+
+Output: Enter a year: 2024
+        The year is a leap year.
+
+Experiment with different arithmetic and logical operators in the interpreter.
+=====================================================================================
+-->Arithmetic operators
+
+# Addition
+>>>5 + 3     
+# Output: 8
+
+# Subtraction
+>>>10 - 4    
+# Output: 6
+
+# Multiplication
+>>>6 * 2     
+# Output: 12
+
+# Division
+>>>8 / 2    
+# Output: 4.0
+
+# Floor Division (drops the decimal)
+>>>9 // 2    
+# Output: 4
+
+# Modulus (remainder)
+>>>10 % 3    
+# Output: 1
+
+# Exponentiation (power)
+>>>2 ** 3    
+# Output: 8
+
+Logical operators
+===================
+# AND (both conditions must be true)
+True and True     # Output: True
+>>>5 > 2 and 3 < 4   
+# Output: True
+
+# OR (at least one condition is true)
+False or True     # Output: True
+>>>5 < 2 or 3 < 4    
+# Output: True
+
+# NOT (reverses the condition)
+not True          # Output: False
+>>>not (5 > 2)       
+# Output: False
+
+Write a script that concatenates two strings and prints the result.
+=======================================================================
+
+string1 = "Hello, "  # Step 1: Define two strings
+string2 = "World!"
+
+result = string1 + string2  # Step 2: Concatenate the strings using the + operator
+
+print(result) # Step 3: Print the concatenated result
+
+Output:Hello, World!
+
