@@ -29,3 +29,4 @@ sum_result = num1 + num2  # Step 3: Add the two numbers
 # Step 4: Print the result
 print("The sum of num1 and num2 is:",sum_result)
 
+Output: The sum of num1 and num2 is:12
